@@ -13,7 +13,7 @@ html {
 
 body {
     align-items: center;
-    background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b4);
+    background: linear-gradient(320deg, #02aab0, #00cdac, #a2c4f7);
     display: flex;
     font-family: 'Dosis', sans-serif;
     font-display: swap;
@@ -71,7 +71,7 @@ body {
 }
 
 .calc_but_row .calc_but:last-child {
-    background: #d72880;
+    background: #0051ff;
     color: #fff;
 }
 
