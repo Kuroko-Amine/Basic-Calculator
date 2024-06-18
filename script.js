@@ -24,7 +24,7 @@ function handleSymbol(symbol){
             if(prev===null){
                 return 
             }
-            flushOperation(parseInt(buffer));
+            flushOperation(parseFloat(buffer));
             prev=null ;
             buffer = rt ;
             rt = 0 ;
@@ -54,7 +54,7 @@ function handleMath(symbol){
         return;
     }
 
-    const intbuffer= parseInt(buffer) ;
+    const intbuffer= parseFloat(buffer) ;
     if(rt===0){
         rt = intbuffer;
     }else{
